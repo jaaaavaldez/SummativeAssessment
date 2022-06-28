@@ -49,6 +49,9 @@ h3 {
 ### <b>GENERAL GIST OF THE PROBLEM</b>
 > [EXPLANATION BY JUSTIN]
 
+![](https://live.staticflickr.com/65535/52179570508_4b604d3c13_k.jpg)
+
+
 <p class="outline">The **Monty Hall Problem** will be discussed following the outline: <br><br>
 1. *Why Switch and Why Not* <br> 
 2. *Standard Math Way* <br> 
