@@ -15,15 +15,18 @@ h1.title {
   font-style: bold;
   text-align: center;
   color: #D792B9;
+
 }
 
 h4.author, h4.date, h4 {
   text-align: center;
+
 }
 
 h3 {
   text-align: center;
   color: #2F3337;
+
 }
 
 .outline {
