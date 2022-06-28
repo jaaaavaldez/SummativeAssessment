@@ -1,29 +1,105 @@
 ---
-title: "SummativeAssessmentGrp2"
-author: "Juliana "Ja" Valdez"
+title: "SUMMATIVE ASSESSMENT"
+author:
+- Tina Almario, Aze Peñalosa, Manu Perez, 
+- Justin Tan, Ja Valdez, Jaime Villarosa
 date: '2022-06-27'
-output: html_document
+output:
+  html_document: 
+    self_contained: yes
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+<style>
 
-## R Markdown
+h1.title {
+  font-style: bold;
+  text-align: center;
+  color: #D792B9;
+}
 
+h4.author, h4.date, h4 {
+  text-align: center;
+}
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+h3 {
+  text-align: center;
+  color: #2F3337;
+}
 
-```{r cars}
-summary(cars)
-```
+.outline {
+  border-radius: 25px;
+  border: 2px solid #2F3337;
+  padding: 20px; 
+  width: auto;
+  height: auto;  
+}
 
-## Including Plots
+</style>
 
-You can also embed plots, for example:
+---
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
+### **SAY HELLO TO RMO!**
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+![](https://live.staticflickr.com/65535/52178902506_936f7d9a86_h.jpg)
+
+> RMO is right! For this *Summative Assessment*, we will explore the following problems: the **Monty Hall Problem** and the **Ultra Lotto Problem**. 
+
+![](https://live.staticflickr.com/65535/52178882473_623c7932a6_c.jpg) 
+
+### <b>GENERAL GIST OF THE PROBLEM</b>
+> [EXPLANATION BY JUSTIN]
+
+<p class="outline">The **Monty Hall Problem** will be discussed following the outline: <br><br>
+1. *Why Switch and Why Not* <br> 
+2. *Standard Math Way* <br> 
+3. *Program Simulation Using Python* <br>
+</p>
+
+### <b>WHY SWITCH AND WHY NOT</b>
+> INSERT CONTENTS HERE [JUSTIN]
+
+### <b>STANDARD MATH WAY</b>
+> INSERT CONTENTS HERE [MANU]
+
+### <b>PROGRAM SIMULATION USING PYTHON</b>
+**INSERT CONTENTS HERE [AZE]**
+
+---
+
+![](https://live.staticflickr.com/65535/52179365205_0dea884dfd_c.jpg) 
+
+**INSERT COMIC HERE [JAIME]**
+
+### <b>ULTRA LOTTO PROBLEM: MATHEMATICAL SOLUTION</b>
+
+In lotteries, the order of selection of the numbers *do not matter*. Hence, solving for the number of all possible combinations in the Ultra Lotto 6/58 employs **Combinations** since they consider any unordered arrangement of objects from a collection. 
+
+*Note* that the **Combination Formula** is given as:
+$$
+_{n}C_{r} = \frac{n!}{r!(n-r)!}
+$$
+where $r$ is the number of objects that can be formed from a collection of $n$ objects. In the case of the Ultra Lotto 6/58, one must choose $6$ numbers from a collection of $58$. Therefore, substituting these numbers to $r$ and $n$, respectively, yields the following: 
+$$
+_{58}C_{6} = \frac{58!}{6!(58-6)!}= 40,475,358
+$$
+After using the Combination Formula, we find that the amount of all possible combination of numbers is equal to approximately $40.5 \textrm{ million}$ combinations or tickets. 
+
+At $P20$ per ticket, a bettor would have to spend an amount equal to the number of all possible combinations multiplied by the said price.
+$$
+\textrm{amount to spend}=P20 \cdot 40,475,358=P809,507,160 
+$$
+Purchasing tickets containing all combinations, the bettor will surely win the lotto prize of $P50 \textrm{ million}$. However, spending approximately a total of $P809.5 \textrm{ million}$ means that the bettor would incur a massive loss as they would be left with a debt of approximately $P759.5 \textrm{ million}$.
+
+---
+
+#### <b>REFERENCES</b>
+| Insert reference 1 here
+
+\
+
+| Insert reference 2 here
+
+\
+
+| Insert reference 3 here
+
