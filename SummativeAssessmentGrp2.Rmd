@@ -29,6 +29,11 @@ h3 {
 
 }
 
+body {
+  font-size: 14pt;
+  text-align: justify;
+}
+
 .outline {
   border-radius: 25px;
   border: 2px solid #2F3337;
@@ -224,36 +229,85 @@ cat("Success Rate: ", (winCtr/total)*100, "%")
 
 ![](https://live.staticflickr.com/65535/52179365205_0dea884dfd_c.jpg) 
 
-**INSERT COMIC HERE [JAIME]**
+![*\*see calculations below*](https://live.staticflickr.com/65535/52180617865_86593dba87_k.jpg) 
 
 ### <b>ULTRA LOTTO PROBLEM: MATHEMATICAL SOLUTION</b>
 
-In lotteries, the order of selection of the numbers *do not matter*. Hence, solving for the number of all possible combinations in the Ultra Lotto 6/58 employs **Combinations** since they consider any unordered arrangement of objects from a collection. 
+In lotteries, the order of selection of the numbers *do not matter*. Hence, solving for the number of all possible combinations in the Ultra Lotto 6/58 employs **Combinations** since they consider any un-ordered arrangement of objects from a collection. 
 
 *Note* that the **Combination Formula** is given as:
+
 $$
 _{n}C_{r} = \frac{n!}{r!(n-r)!}
 $$
+
 where $r$ is the number of objects that can be formed from a collection of $n$ objects. In the case of the Ultra Lotto 6/58, one must choose $6$ numbers from a collection of $58$. Therefore, substituting these numbers to $r$ and $n$, respectively, yields the following: 
+
 $$
 _{58}C_{6} = \frac{58!}{6!(58-6)!}= 40,475,358
 $$
+
+<br>
+
 After using the Combination Formula, we find that the amount of all possible combination of numbers is equal to approximately $40.5 \textrm{ million}$ combinations or tickets. 
 
 At $P20$ per ticket, a bettor would have to spend an amount equal to the number of all possible combinations multiplied by the said price.
+
 $$
 \textrm{amount to spend}=P20 \cdot 40,475,358=P809,507,160 
 $$
-Purchasing tickets containing all combinations, the bettor will surely win the lotto prize of $P50 \textrm{ million}$. However, spending approximately a total of $P809.5 \textrm{ million}$ means that the bettor would incur a massive loss as they would be left with a debt of approximately $P759.5 \textrm{ million}$.
+<br>
+
+Purchasing tickets containing all combinations, the bettor will surely win the lotto prize of $P50 \textrm{ million}$. However, spending approximately a total of $P809.5 \textrm{ million}$ means that the bettor would incur a massive loss.
+
+To find out how much exactly an individual can win in the 6/58, the rules of PCSO's Ultra Lotto 6/58 indicate that those who get 3/4/5 of the 6 winning numbers are eligible for a consolation prize. As of June 28, 2022, the PCSO consolation prize pool is as follows:
+
+- 2nd place - 5 out of 6 winning nos. - $P120,000.00$
+- 3rd place - 4 out of 6 winning nos. - $P2,000.00$
+- 4th place - 3 out of 6 winning nos. - $P100.00$
+
+*note that the current prize pool is $P49.50\textrm million$ but the prize pool in the scenario is $P5 \textrm million$. 
+<br>
+
+Since you bought all combinations, you will get the 442,000 tickets that got 3 out of the 6 winning numbers, which gives $P44,200,000.00$ .
+
+$$
+_{6}C_{3} \cdot [_{(58-6)}C_{(6-3)}]=442,000
+$$
+
+$$
+442,000 \cdot P100.00= P44,200,000
+$$
+
+<br>
+
+Do note that the 6/58 follows the pari-mutuel system pertaining to a betting pool in which those who win within the first three places share the total amount bet.
+
+In case someone else but you wins a prize in the lottery, you will be splitting the top three prizes, effectively sinking you further in debt; but in case you are the sole winner, your total winnings would be $P94,322,000.00$ (without tax).
+
+$$
+\textrm{total winnings}=P50,000,000 + P120,000 + P2,000 + P44,200,000 = P94,322,000
+$$
+
+<br>
+
+Regardless if you consider the consolation prizes ($debt_2$) or not $(debt_1)$, you will still be in enormous debt since neither of the outcomes would make you break even.
+
+$$
+\textrm{debt}_1= P809,507,160-P50,000,000=P759,507,160
+$$
+$$
+\textrm{debt}_2=P809,507,160-P94,322,000=P715,185,160
+$$
 
 ---
 
 #### <b>REFERENCES</b>
-| Insert reference 1 here
+| 6/58 Lotto Result Today - Official PCSO Lotto Results. (2022). Retrieved 28 June 2022, from https://www.lottopcso.com/6-58-lotto-result/
 
 \
 
-| Insert reference 2 here
+| Definition of pari-mutuel | Dictionary.com. (2022). Retrieved 28 June 2022, from https://www.dictionary.com/browse/pari-mutuel
 
 \
 
