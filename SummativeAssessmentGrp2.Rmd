@@ -56,7 +56,7 @@ body {
 
 ### <b>GENERAL GIST OF THE PROBLEM</b>  
 
-Monty Hall was a game show host and the person this popular problem originates and is named from. The contestant would have 3 doors to choose from, behind one of them was a car. The problem comes in when Monty opens one of the other 2 doors. Monty, knowing which door has the car, would then obviously open the door without a car. You are then left with the decision of whether to keep your original answer, or to switch to the other remaining door. Only years later would people realize that there is in fact a decision you should always make.
+Monty Hall was a game show host and the person this popular problem originates and is named from. The contestant would have **3 doors to choose from**, behind one of them was a car. The problem comes in when Monty opens one of the other 2 doors. Monty, knowing which door has the car, would then obviously open the door without a car. You are then left with the decision of whether to **keep your original answer**, or to **switch to the other remaining door**. Only years later would people realize that there is in fact a decision you should always make.
 
 ![](https://live.staticflickr.com/65535/52179570508_4b604d3c13_k.jpg)
 
@@ -69,9 +69,9 @@ Monty Hall was a game show host and the person this popular problem originates a
 
 ### <b>WHY SWITCH AND WHY NOT</b>  
 
-The main argument for not switching in this scenario is that since there are only two options left, the probability of getting the right answer would only be a 50-50. This would mean that there would be no benefit to switching. Due to this, the participants would tend to trust their initial answer. Aside from this, there is not really any other particular reason not to switch.  
+> The main argument for not switching in this scenario is that since there are only two options left, the probability of getting the right answer would only be a 50-50. This would mean that there would be no benefit to switching. Due to this, the participants would tend to trust their initial answer. Aside from this, there is not really any other particular reason not to switch.  
 
-The reason why switching is the answer you should always take can be more easily grasped when viewing the situation as a whole. In the beginning, the door you chose is one of three options, meaning that there is a one third chance of choosing the right door. It is through this initial probability where we arrive at the conclusion that switching is always the best option. As the door you initially chose has a one third answer of being correct, there is a two-thirds chance of the car being in one of the other two doors. Because one of those doors were already opened, this consolidates that two-thirds chance onto the other door as the game show host would obviously not open the door with the car.
+> The reason why switching is the answer you should always take can be more easily grasped when viewing the situation as a whole. In the beginning, the door you chose is one of three options, meaning that there is a one-third chance of choosing the right door. It is through this initial probability where we arrive at the conclusion that **switching is always the best option**. As the door you initially chose has a one-third chance of being correct, there is a two-thirds chance of the car being in one of the other two doors. Because one of those doors were already opened, this consolidates that two-thirds chance onto the other door as the game show host would obviously not open the door with the car.
 
 
 ### <b>STANDARD MATH WAY</b>
@@ -81,7 +81,7 @@ The reason why switching is the answer you should always take can be more easily
 
 #### About the Simulation
 
-> The discussed mathematical theorem implies that always switching after the one door is opened serves as the most sensible choice. We can push the concept of the Monty Hall problem by exploring it through an original simulation based on R program. Right before knitting the HTML, the program ran through one hundred thousands test runs.
+> The discussed mathematical theorem implies that always switching after the one door is opened serves as the most sensible choice. We can push the concept of the Monty Hall problem by exploring it through an **original simulation based on R program**. Right before knitting the HTML, the program ran through one hundred thousands test runs.
 >
 > Explore the program by navigating through the tabs, where the rate of success given three doors with one car and two goats that are randomly arranged is shown at the bottom of the R program.
 
@@ -219,8 +219,10 @@ for (total in 0:trials){
 
 cat("Success Rate: ", (winCtr/total)*100, "%")
 ```
-> <b>Let's Discuss:</b>
-> This simulation confirmed the mathematical principle that switchin leads to a higher success rate of around 66%. Largely deducing from the flow of the program shows, it follows that two major conditions exists:
+
+<b>*Let's Discuss:*</b> <br>
+
+> This simulation confirmed the mathematical principle that **switching leads to a higher success rate of around 66%**. Largely deducing from the flow of the program shows, it follows that two major conditions exists:
 > 1. The player initially chooses right.
 > 2. The player initially chooses wrong.
 > Switching choices for the first condition will certainly lead to a wrong choice while likewise changing choices for the second condition always leads to the right choice. Since only two doors remain after the host revealed one door containing the goat, the unselected door must have the car given that the initial guess is wrong.
