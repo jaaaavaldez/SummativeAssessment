@@ -132,7 +132,7 @@ cat("Success Rate: ", (winCtr/total)*100, "%")
 ```
 
 ```
-## Success Rate:  33.29 %
+## Success Rate:  33.499 %
 ```
 
 > <b>Let's Discuss:</b>
@@ -236,7 +236,7 @@ cat("Success Rate: ", (winCtr/total)*100, "%")
 ```
 
 ```
-## Success Rate:  66.327 %
+## Success Rate:  66.577 %
 ```
 
 <b>*Let's Discuss:*</b> <br>
