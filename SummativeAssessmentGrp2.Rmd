@@ -282,10 +282,10 @@ To find out how much exactly an individual can win in the 6/58, the rules of PCS
 - 3rd place - 4 out of 6 winning nos. - $P2,000.00$
 - 4th place - 3 out of 6 winning nos. - $P100.00$
 
-*note that the current prize pool is $P49.50\textrm million$ but the prize pool in the scenario is $P5 \textrm million$. 
+*note that the current prize pool is $P49.50 \textrm{ million}$ but the prize pool in the scenario is $P5 \textrm{ million}$. 
 <br>
 
-Since you bought all combinations, you will get the 442,000 tickets that got 3 out of the 6 winning numbers, which gives $P44,200,000.00$ .
+Since you bought all combinations, you will get the 442,000 tickets that got 3 out of the 6 winning numbers, which gives $P44,200,000.00$.
 
 $$
 _{6}C_{3} \cdot [_{(58-6)}C_{(6-3)}]=442,000

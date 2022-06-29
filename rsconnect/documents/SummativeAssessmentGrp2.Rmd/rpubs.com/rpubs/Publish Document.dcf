@@ -1,0 +1,11 @@
+name: Publish Document
+title:
+username:
+account: rpubs
+server: rpubs.com
+hostUrl: rpubs.com
+appId: https://api.rpubs.com/api/v1/document/919929/951ad8f2f8114b5dacdcd970c5423dd6
+bundleId: https://api.rpubs.com/api/v1/document/919929/951ad8f2f8114b5dacdcd970c5423dd6
+url: http://rpubs.com/jaaaavaldez/919929
+when: 1656482204.74317
+lastSyncTime: 1656482204.74318
